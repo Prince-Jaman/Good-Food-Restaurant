@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section style start */
+
+.banner-container {
+    max-width: 1920px;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url('/assets/hero-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-content h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.btn-primary {
+    width: 279px;
+    height: 66px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: white;
+    border-style: none;
+    margin-top: 32px;
+}
+
+/* banner section style end */
