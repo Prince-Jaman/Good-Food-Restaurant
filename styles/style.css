@@ -15,17 +15,22 @@
 /* banner section style start */
 
 .banner-container {
-    max-width: 1920px;
-    height: 650px;
+    width: 1519px;
+    height: 700px;
     margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(16, 16, 16), rgba(16, 16, 16, 0) 100%);
     background-image: url('/assets/hero-bg.png');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner-content {
+    width: 1023px;
+    height: 393px;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -51,14 +56,86 @@
 .btn-primary {
     width: 279px;
     height: 66px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 21px 32px;
     border-radius: 8px;
     background: rgb(82, 195, 3);
     color: white;
     border-style: none;
     margin-top: 32px;
+    padding: 21px 32px 21px 32px;
 }
 
 /* banner section style end */
+
+/* cardbox section start */
+
+
+.card-box {
+    width: 1320px;
+    height: 746px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.info {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+
+.subtitle{
+
+}
+
+.title{
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.pizza-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.biriyani-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.burger-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.decoration{
+    text-align: center;
+}
+.img-style {
+    width: 350px;
+  }
+.img-style img {
+    width: 100%;
+  }
+
+
+
+/* cardbox section end */
